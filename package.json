@@ -1,0 +1,16 @@
+{
+  "name": "ai_agent",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.50",
+    "ai": "^6.0.146"
+  }
+}
